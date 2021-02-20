@@ -1,0 +1,119 @@
+html{
+    width:100%;
+    height:100%;
+    position:relative;
+    overflow: hidden;
+}
+@media only screen and (max-width:375px)
+{
+.pfcard{
+    position:absolute;
+      bottom: 0.7%;
+      left:36%;
+      top:8%;
+      width: 350px;
+      height:380px;
+      background-color: white;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      z-index:1;
+}
+}
+    body { 
+      background-color: hsl(185, 75%, 39%);
+      position:relative;
+      width: 100%;
+     height: 100%;
+     overflow:hidden;
+      }
+      
+    .top{
+      position:fixed;
+      right: 57%;
+      bottom:30%;
+        z-index:0;
+    }
+    .pfcard{
+      position:fixed;
+      bottom: 0.7%;
+      left:36%;
+      top:20%;
+      width: 350px;
+      height:380px;
+      background-color: white;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      z-index:1;
+    }
+    .bottom{
+        position:fixed;
+        top:50%;
+        left:48%;
+        z-index:0;
+      }
+    .img{
+      position: relative;
+      bottom:12%;
+      border-radius: 50%;
+      margin-left:127px;
+      margin-right:127px;
+      border: 5px solid;
+      border-color: white;
+      z-index:1;
+    }
+    
+    .name{
+      font-family: Kumbh Sans;
+      font-size:18px;
+      width:110%;
+      padding: 0% 0% 0% 0%;
+      text-align: center;
+      margin-bottom: 0%;
+      margin-top: 0%;
+      position: relative;
+      bottom:8%;
+    }
+    .card{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .city{
+      font-family: Kumbh Sans;
+      font-size:18px;
+      margin-top: 2%;
+      color: hsl(227, 10%, 46%);
+      text-align: center;
+      position: relative;
+      bottom:8%;
+    }
+    hr{
+        position: relative;
+      bottom:8%;
+    
+    }
+    .f,.l,.p{
+      display: inline-block;
+      text-align: center;
+      line-height: 0%;
+      font-family: Kumbh Sans;
+      padding-left: 50px;
+      font-size:18px;
+      position: relative;
+      bottom:8%;
+    }
+   
+    .attribution
+     { 
+         position:absolute;
+         top:90%;
+         left:38%;
+         font-size: 11px; 
+        text-align: center; }
+    .attribution a 
+    { 
+        color: hsl(228, 45%, 44%); 
+    }
